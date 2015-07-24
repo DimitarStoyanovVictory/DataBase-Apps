@@ -30,8 +30,8 @@ public class Test
                 Town = ad.Town,
                 PublishDate = ad.Date
             })
-            .OrderBy(ad => ad.PublishDate)
-            .ToList();
+            .ToList()
+            .OrderBy(ad => ad.PublishDate);
 
         //foreach (var ad in ads)
         //{
@@ -41,7 +41,8 @@ public class Test
 
     private static void NotOptimizedMethod(AdsEntities1 context)
     {
-        var ads = context.Ads.ToList()
+        var ads = context.Ads
+            .ToList()
             .Where(c => c.AdStatus.Status == "Published")
             .Select(ad => new
             {
