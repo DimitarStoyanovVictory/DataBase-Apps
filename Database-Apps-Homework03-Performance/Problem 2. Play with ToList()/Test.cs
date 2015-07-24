@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Diagnostics;
 using System.Linq;
 using DatabaseAppsHomework03Performance;
@@ -34,7 +35,7 @@ public class Test
 
         //foreach (var ad in ads)
         //{
-        //    Console.WriteLine("Title {0}; Category {1}; Town {2};", ad.Title, ad.Category, ad.Town);
+        //    Console.WriteLine("Title {0}; Category {1}; Town {2};", ad.Title, ad.Category != null ? ad.Category.Name : "null", ad.Town != null ? ad.Category.Name : "null");
         //}
     }
 
@@ -54,7 +55,7 @@ public class Test
 
         //foreach (var ad in ads)
         //{
-        //    Console.WriteLine("Title {0}; Category {1}; Town {2};", ad.Title, ad.Category, ad.Town);
+        //    Console.WriteLine("Title {0}; Category {1}; Town {2};", ad.Title, ad.Category != null ? ad.Category.Name : "null", ad.Town != null ? ad.Category.Name : "null");
         //}
     }
 }
