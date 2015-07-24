@@ -1,0 +1,12 @@
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\Problem_3.Select_Everything_vs.Select_Certain_Columns.exe.config
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\Problem_3.Select_Everything_vs.Select_Certain_Columns.exe
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\Problem_3.Select_Everything_vs.Select_Certain_Columns.pdb
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\Database-Apps-Homework03-Performance.exe
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\Database-Apps-Homework03-Performance.pdb
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\obj\Debug\Problem 3. Select Everything vs. Select Certain Columns.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\obj\Debug\Problem_3.Select_Everything_vs.Select_Certain_Columns.exe
+D:\VSProjects\Database-Apps-Homework03-Performance\Problem 3. Select Everything vs. Select Certain Columns\obj\Debug\Problem_3.Select_Everything_vs.Select_Certain_Columns.pdb

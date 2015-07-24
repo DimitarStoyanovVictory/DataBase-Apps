@@ -1,0 +1,6 @@
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\obj\Debug\StudentSystem.Models.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\bin\Debug\StudentSystem.Models.dll.config
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\bin\Debug\StudentSystem.Models.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\bin\Debug\StudentSystem.Models.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\obj\Debug\StudentSystem.Models.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem\obj\Debug\StudentSystem.Models.pdb

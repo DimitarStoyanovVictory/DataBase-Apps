@@ -1,0 +1,10 @@
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\Database-Apps-Homework03-Performance.exe.config
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\Database-Apps-Homework03-Performance.exe
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\Database-Apps-Homework03-Performance.pdb
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\obj\Debug\Problem 1. Show Data from Related Tables.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\obj\Debug\Database-Apps-Homework03-Performance.exe
+D:\VSProjects\Database-Apps-Homework03-Performance\Database-Apps-Homework03-Performance\obj\Debug\Database-Apps-Homework03-Performance.pdb

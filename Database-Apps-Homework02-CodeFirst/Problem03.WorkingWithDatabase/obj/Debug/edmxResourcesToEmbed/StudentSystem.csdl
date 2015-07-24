@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cours">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Homework" Relationship="Self.FK_dbo_Homework_dbo_Courses_Course_Id" FromRole="Courses" ToRole="Homework" />
+    <NavigationProperty Name="Resources" Relationship="Self.FK_dbo_Resources_dbo_Courses_Course_Id" FromRole="Courses" ToRole="Resources" />
+    <NavigationProperty Name="Students" Relationship="Self.StudentCourses" FromRole="Courses" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Homework">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ContentType" Type="Int32" Nullable="false" />
+    <Property Name="Course_Id" Type="Int32" />
+    <NavigationProperty Name="Cours" Relationship="Self.FK_dbo_Homework_dbo_Courses_Course_Id" FromRole="Homework" ToRole="Courses" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_dbo_Students_dbo_Homework_Homework_Id" FromRole="Homework" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Resource">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ResourceType" Type="Int32" Nullable="false" />
+    <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Course_Id" Type="Int32" />
+    <NavigationProperty Name="Cours" Relationship="Self.FK_dbo_Resources_dbo_Courses_Course_Id" FromRole="Resources" ToRole="Courses" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RegstrationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="Homework_Id" Type="Int32" />
+    <NavigationProperty Name="Homework" Relationship="Self.FK_dbo_Students_dbo_Homework_Homework_Id" FromRole="Students" ToRole="Homework" />
+    <NavigationProperty Name="Courses" Relationship="Self.StudentCourses" FromRole="Students" ToRole="Courses" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_dbo_Homework_dbo_Courses_Course_Id">
+    <End Role="Courses" Type="Self.Cours" Multiplicity="0..1" />
+    <End Role="Homework" Type="Self.Homework" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Homework">
+        <PropertyRef Name="Course_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Resources_dbo_Courses_Course_Id">
+    <End Role="Courses" Type="Self.Cours" Multiplicity="0..1" />
+    <End Role="Resources" Type="Self.Resource" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Resources">
+        <PropertyRef Name="Course_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Students_dbo_Homework_Homework_Id">
+    <End Role="Homework" Type="Self.Homework" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Homework">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="Homework_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentCourses">
+    <End Role="Courses" Type="Self.Cours" Multiplicity="*" />
+    <End Role="Students" Type="Self.Student" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="StudentSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Courses" EntityType="Self.Cours" />
+    <EntitySet Name="Homework" EntityType="Self.Homework" />
+    <EntitySet Name="Resources" EntityType="Self.Resource" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_dbo_Homework_dbo_Courses_Course_Id" Association="Self.FK_dbo_Homework_dbo_Courses_Course_Id">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Homework" EntitySet="Homework" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Resources_dbo_Courses_Course_Id" Association="Self.FK_dbo_Resources_dbo_Courses_Course_Id">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Resources" EntitySet="Resources" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Students_dbo_Homework_Homework_Id" Association="Self.FK_dbo_Students_dbo_Homework_Homework_Id">
+      <End Role="Homework" EntitySet="Homework" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="StudentCourses" Association="Self.StudentCourses">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

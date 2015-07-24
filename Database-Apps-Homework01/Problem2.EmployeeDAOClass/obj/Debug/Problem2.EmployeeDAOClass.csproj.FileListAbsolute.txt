@@ -1,0 +1,12 @@
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\Problem2.EmployeeDAOClass.exe.config
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\Problem2.EmployeeDAOClass.exe
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\Problem2.EmployeeDAOClass.pdb
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\DatabaseApps-Homework01.dll
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\EntityFramework.dll
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\DatabaseApps-Homework01.pdb
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\EntityFramework.xml
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\obj\Debug\Problem2.EmployeeDAOClass.csprojResolveAssemblyReference.cache
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\obj\Debug\Problem2.EmployeeDAOClass.exe
+D:\VSProjects\DatabaseApps-Homework01\Problem2.EmployeeDAOClass\obj\Debug\Problem2.EmployeeDAOClass.pdb

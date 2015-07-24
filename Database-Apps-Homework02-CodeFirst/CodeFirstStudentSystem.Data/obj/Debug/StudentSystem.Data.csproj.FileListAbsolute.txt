@@ -1,0 +1,12 @@
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\obj\Debug\StudentSystem.Data.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\StudentSystem.Data.dll.config
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\StudentSystem.Data.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\StudentSystem.Data.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\StudentSystem.Models.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\bin\Debug\StudentSystem.Models.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\obj\Debug\StudentSystem.Data.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\CodeFirstStudentSystem.Data\obj\Debug\StudentSystem.Data.pdb

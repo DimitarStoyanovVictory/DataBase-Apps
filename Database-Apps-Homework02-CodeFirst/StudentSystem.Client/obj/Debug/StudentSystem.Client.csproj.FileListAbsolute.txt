@@ -1,0 +1,14 @@
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\obj\Debug\StudentSystem.Client.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe.config
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Client.exe
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Client.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\obj\Debug\StudentSystem.Client.exe
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\obj\Debug\StudentSystem.Client.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Data.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Models.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Data.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\StudentSystem.Client\bin\Debug\StudentSystem.Models.pdb

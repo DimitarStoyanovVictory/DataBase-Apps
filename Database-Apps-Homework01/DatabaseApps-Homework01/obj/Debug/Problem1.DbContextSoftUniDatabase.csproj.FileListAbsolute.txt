@@ -1,0 +1,10 @@
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\obj\Debug\Problem1.DbContextSoftUniDatabase.csprojResolveAssemblyReference.cache
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\DatabaseApps-Homework01.dll.config
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\DatabaseApps-Homework01.dll
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\DatabaseApps-Homework01.pdb
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\EntityFramework.dll
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\EntityFramework.xml
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\obj\Debug\DatabaseApps-Homework01.dll
+D:\VSProjects\DatabaseApps-Homework01\DatabaseApps-Homework01\obj\Debug\DatabaseApps-Homework01.pdb

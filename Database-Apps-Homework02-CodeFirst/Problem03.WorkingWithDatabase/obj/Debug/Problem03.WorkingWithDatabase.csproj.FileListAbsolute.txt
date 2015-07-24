@@ -1,0 +1,10 @@
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\Problem03.WorkingWithDatabase.exe.config
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\Problem03.WorkingWithDatabase.exe
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\Problem03.WorkingWithDatabase.pdb
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\obj\Debug\Problem03.WorkingWithDatabase.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\obj\Debug\Problem03.WorkingWithDatabase.exe
+D:\VSProjects\Database-Apps-Homework02-CodeFirst\Problem03.WorkingWithDatabase\obj\Debug\Problem03.WorkingWithDatabase.pdb
