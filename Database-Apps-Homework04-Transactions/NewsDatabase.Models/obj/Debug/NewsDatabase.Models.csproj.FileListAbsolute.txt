@@ -1,0 +1,6 @@
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\obj\Debug\NewsDatabase.Models.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\bin\Debug\NewsDatabase.Models.dll.config
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\bin\Debug\NewsDatabase.Models.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\bin\Debug\NewsDatabase.Models.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\obj\Debug\NewsDatabase.Models.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Models\obj\Debug\NewsDatabase.Models.pdb

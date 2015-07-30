@@ -1,0 +1,12 @@
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\NewsDatabase.Data.dll.config
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\NewsDatabase.Data.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\NewsDatabase.Data.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\NewsDatabase.Models.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\NewsDatabase.Models.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\obj\Debug\Problem1.NewsDatabase.Data.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\obj\Debug\NewsDatabase.Data.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDatabase.Data\obj\Debug\NewsDatabase.Data.pdb

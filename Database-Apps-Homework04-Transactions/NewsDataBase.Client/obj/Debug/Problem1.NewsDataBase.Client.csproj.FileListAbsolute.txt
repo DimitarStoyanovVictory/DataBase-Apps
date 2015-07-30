@@ -1,0 +1,14 @@
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDataBase.Client.exe.config
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\obj\Debug\NewsDataBase.Client.exe
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\obj\Debug\NewsDataBase.Client.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDataBase.Client.exe
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDataBase.Client.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDatabase.Data.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDatabase.Models.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDatabase.Data.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\NewsDatabase.Models.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\NewsDataBase.Client\obj\Debug\Problem1.NewsDataBase.Client.csprojResolveAssemblyReference.cache

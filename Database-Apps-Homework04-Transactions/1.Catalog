@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Jesus is the Lord of lords</name>
+    <artist>Kim Walker</artist>
+    <year>2014</year>
+    <producer>Reinhard Bonke</producer>
+    <price>200000</price>
+    <songs>
+      <song>
+        <title>Father of Lights</title>
+        <duration>7.56</duration>
+      </song>
+      <song>
+        <title>Your name is glorious</title>
+        <duration>6.52</duration>
+      </song>
+      <song>
+        <title>Your love never fails</title>
+        <duration>6.15</duration>
+      </song>
+      <song>
+        <title>Break every chain</title>
+        <duration>8.12</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>The lion of Juda</name>
+    <artist>Misty Edwards</artist>
+    <year>2016</year>
+    <producer>Reinhard Bonke</producer>
+    <price>2000000</price>
+    <songs>
+      <song>
+        <title>Baptize my heart</title>
+        <duration>5.36</duration>
+      </song>
+      <song>
+        <title>When you think of me</title>
+        <duration>6.47</duration>
+      </song>
+      <song>
+        <title>Only a shadow</title>
+        <duration>6.20</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

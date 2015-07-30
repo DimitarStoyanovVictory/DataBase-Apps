@@ -1,0 +1,12 @@
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\ProductsShop.Data.dll.config
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\ProductsShop.Data.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\ProductsShop.Data.pdb
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\obj\Debug\ProductsShop.Data.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\obj\Debug\ProductsShop.Data.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\obj\Debug\ProductsShop.Data.pdb
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\ProductsShop.Models.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\ProductsShop.Models.pdb
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\ProductsShop.Data\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,11 @@
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\Test.exe.config
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\Test.exe
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\Test.pdb
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\Newtonsoft.Json.dll
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\Newtonsoft.Json.xml
+D:\VSProjects\Database-Apps-Homework06-XML\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework06-XML\Test\obj\Debug\Test.exe
+D:\VSProjects\Database-Apps-Homework06-XML\Test\obj\Debug\Test.pdb
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\System.Net.Http.Formatting.dll
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\WebApiContrib.Formatting.JavaScriptSerializer.dll
+D:\VSProjects\Database-Apps-Homework06-XML\Test\bin\Debug\System.Net.Http.Formatting.xml

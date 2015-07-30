@@ -1,0 +1,6 @@
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\bin\Debug\ProductsShop.Models.dll.config
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\bin\Debug\ProductsShop.Models.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\bin\Debug\ProductsShop.Models.pdb
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\obj\Debug\ProductsShop.Models.dll
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\obj\Debug\ProductsShop.Models.pdb

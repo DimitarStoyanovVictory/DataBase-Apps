@@ -1,0 +1,16 @@
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\Problem2.Concurrent Updates.exe.config
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\Problem2.Concurrent Updates.exe
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\Problem2.Concurrent Updates.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\NewsDatabase.Data.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\NewsDatabase.Models.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\NewsDatabase.Data.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\NewsDatabase.Models.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\obj\Debug\Problem2.ConcurrentUpdates.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\obj\Debug\Problem2.Concurrent Updates.exe
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\obj\Debug\Problem2.Concurrent Updates.pdb
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.Extended.dll
+D:\VSProjects\Database-Apps-Homework04-Transactions\Problem2.Concurrent Updates\bin\Debug\EntityFramework.Extended.xml

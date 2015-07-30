@@ -1,0 +1,1 @@
+D:\VSProjects\Database-Apps-Homework07-ProcessingJSON\Problem1.ProductsShop\bin\Debug\Problem1.ProductsShop.exe.config

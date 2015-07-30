@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog name="Catalog with musical albums">
+  <album>
+    <name>Jesus is the Lord of lords</name>
+    <artist>Kim Walker</artist>
+    <year>2010</year>
+    <producer>Reinhard Bonke</producer>
+    <price>17</price>
+    <songs>
+      <song>
+        <title>Father of Lights</title>
+        <duration>7.56</duration>
+      </song>
+      <song>
+        <title>Your name is glorious</title>
+        <duration>6.52</duration>
+      </song>
+      <song>
+        <title>Your love never fails</title>
+        <duration>6.15</duration>
+      </song>
+      <song>
+        <title>Break every chain</title>
+        <duration>8.12</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Amazing grace</name>
+    <artist>Kim Walker</artist>
+    <year>1779</year>
+    <producer>Reinhard Bonke</producer>
+    <price>19</price>
+    <songs>
+      <song>
+        <title>Amazing Grace 2011</title>
+        <duration>5.36</duration>
+      </song>
+      <song>
+        <title>Amazing Grace for Christmas</title>
+        <duration>5.03</duration>
+      </song>
+      <song>
+        <title>Amazing Grade 2015</title>
+        <duration>7.56</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>There is Power in the name of Jesus</name>
+    <artist>Kim Walker and others</artist>
+    <year>2015</year>
+    <producer>Reinhard Bonke</producer>
+    <price>19</price>
+    <songs>
+      <song>
+        <title>Power in your love</title>
+        <duration>5.36</duration>
+      </song>
+      <song>
+        <title>Jesus has love for you</title>
+        <duration>5.03</duration>
+      </song>
+      <song>
+        <title>Your name is glorious</title>
+        <duration>7.56</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
