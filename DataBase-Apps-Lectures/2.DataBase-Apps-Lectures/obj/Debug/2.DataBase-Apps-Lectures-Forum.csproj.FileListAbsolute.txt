@@ -1,0 +1,10 @@
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\2.DataBase-Apps-Lectures.pdb
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\obj\Debug\2.DataBase-Apps-Lectures-Forum.csprojResolveAssemblyReference.cache
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\obj\Debug\2.DataBase-Apps-Lectures.pdb
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\DataBase-Apps-Lectures.exe
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\EntityFramework.dll
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\DataBase-Apps-Lectures.pdb
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\EntityFramework.xml
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\2.DataBase-Apps-Lectures.exe.config
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\bin\Debug\2.DataBase-Apps-Lectures.exe
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures\obj\Debug\2.DataBase-Apps-Lectures.exe

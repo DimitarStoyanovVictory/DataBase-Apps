@@ -1,0 +1,6 @@
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\obj\Debug\ForumSystem.csprojResolveAssemblyReference.cache
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\bin\Debug\ForumSystem.dll.config
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\bin\Debug\ForumSystem.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\bin\Debug\ForumSystem.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\obj\Debug\ForumSystem.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem\obj\Debug\ForumSystem.pdb

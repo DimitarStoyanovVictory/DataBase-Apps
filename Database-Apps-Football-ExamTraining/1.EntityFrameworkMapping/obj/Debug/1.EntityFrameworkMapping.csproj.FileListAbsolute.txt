@@ -1,0 +1,10 @@
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\1.EntityFrameworkMapping.exe.config
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\1.EntityFrameworkMapping.exe
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\1.EntityFrameworkMapping.pdb
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\obj\Debug\1.EntityFrameworkMapping.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\obj\Debug\1.EntityFrameworkMapping.exe
+D:\VSProjects\Database-Apps-Football-ExamTraining\1.EntityFrameworkMapping\obj\Debug\1.EntityFrameworkMapping.pdb

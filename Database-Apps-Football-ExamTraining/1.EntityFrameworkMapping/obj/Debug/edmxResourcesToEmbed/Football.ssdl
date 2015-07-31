@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FootballModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="FootballModelStoreContainer">
+    <EntitySet Name="Countries" EntityType="FootballModel.Store.Countries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="InternationalMatches" EntityType="FootballModel.Store.InternationalMatches" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leagues" EntityType="FootballModel.Store.Leagues" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="FootballModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TeamMatches" EntityType="FootballModel.Store.TeamMatches" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Teams" EntityType="FootballModel.Store.Teams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Leagues_Teams" EntityType="FootballModel.Store.Leagues_Teams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_InternationalMatches_Countries_AwayCountryCode" Association="FootballModel.Store.FK_InternationalMatches_Countries_AwayCountryCode">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InternationalMatches_Countries_HomeCountryCode" Association="FootballModel.Store.FK_InternationalMatches_Countries_HomeCountryCode">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leagues_Countries" Association="FootballModel.Store.FK_Leagues_Countries">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Leagues" EntitySet="Leagues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teams_Countries" Association="FootballModel.Store.FK_Teams_Countries">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Teams" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InternationalMatches_Leagues" Association="FootballModel.Store.FK_InternationalMatches_Leagues">
+      <End Role="Leagues" EntitySet="Leagues" />
+      <End Role="InternationalMatches" EntitySet="InternationalMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeamMatches_Leagues" Association="FootballModel.Store.FK_TeamMatches_Leagues">
+      <End Role="Leagues" EntitySet="Leagues" />
+      <End Role="TeamMatches" EntitySet="TeamMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeamMatches_Teams_AwayTeam" Association="FootballModel.Store.FK_TeamMatches_Teams_AwayTeam">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="TeamMatches" EntitySet="TeamMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeamMatches_Teams_HomeTeam" Association="FootballModel.Store.FK_TeamMatches_Teams_HomeTeam">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="TeamMatches" EntitySet="TeamMatches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leagues_Teams_Leagues" Association="FootballModel.Store.FK_Leagues_Teams_Leagues">
+      <End Role="Leagues" EntitySet="Leagues" />
+      <End Role="Leagues_Teams" EntitySet="Leagues_Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Leagues_Teams_Teams" Association="FootballModel.Store.FK_Leagues_Teams_Teams">
+      <End Role="Teams" EntitySet="Teams" />
+      <End Role="Leagues_Teams" EntitySet="Leagues_Teams" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="CountryCode" />
+    </Key>
+    <Property Name="CountryCode" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="CountryName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CurrencyCode" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Population" Type="int" Nullable="true" />
+    <Property Name="AreaSqKm" Type="int" Nullable="true" />
+    <Property Name="Capital" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="InternationalMatches">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HomeCountryCode" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="AwayCountryCode" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="HomeGoals" Type="int" Nullable="true" />
+    <Property Name="AwayGoals" Type="int" Nullable="true" />
+    <Property Name="MatchDate" Type="datetime" Nullable="true" />
+    <Property Name="LeagueId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Leagues">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LeagueName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CountryCode" Type="char" Nullable="true" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="TeamMatches">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HomeTeamId" Type="int" Nullable="false" />
+    <Property Name="AwayTeamId" Type="int" Nullable="false" />
+    <Property Name="HomeGoals" Type="int" Nullable="true" />
+    <Property Name="AwayGoals" Type="int" Nullable="true" />
+    <Property Name="MatchDate" Type="datetime" Nullable="true" />
+    <Property Name="LeagueId" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Teams">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeamName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CountryCode" Type="char" Nullable="true" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="Leagues_Teams">
+    <Key>
+      <PropertyRef Name="Leagues_Id" />
+      <PropertyRef Name="Teams_Id" />
+    </Key>
+    <Property Name="Leagues_Id" Type="int" Nullable="false" />
+    <Property Name="Teams_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_InternationalMatches_Countries_AwayCountryCode">
+    <End Role="Countries" Type="FootballModel.Store.Countries" Multiplicity="1" />
+    <End Role="InternationalMatches" Type="FootballModel.Store.InternationalMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="InternationalMatches">
+        <PropertyRef Name="AwayCountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InternationalMatches_Countries_HomeCountryCode">
+    <End Role="Countries" Type="FootballModel.Store.Countries" Multiplicity="1" />
+    <End Role="InternationalMatches" Type="FootballModel.Store.InternationalMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="InternationalMatches">
+        <PropertyRef Name="HomeCountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leagues_Countries">
+    <End Role="Countries" Type="FootballModel.Store.Countries" Multiplicity="0..1" />
+    <End Role="Leagues" Type="FootballModel.Store.Leagues" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="Leagues">
+        <PropertyRef Name="CountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teams_Countries">
+    <End Role="Countries" Type="FootballModel.Store.Countries" Multiplicity="0..1" />
+    <End Role="Teams" Type="FootballModel.Store.Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="Teams">
+        <PropertyRef Name="CountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InternationalMatches_Leagues">
+    <End Role="Leagues" Type="FootballModel.Store.Leagues" Multiplicity="0..1" />
+    <End Role="InternationalMatches" Type="FootballModel.Store.InternationalMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leagues">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="InternationalMatches">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeamMatches_Leagues">
+    <End Role="Leagues" Type="FootballModel.Store.Leagues" Multiplicity="0..1" />
+    <End Role="TeamMatches" Type="FootballModel.Store.TeamMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leagues">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamMatches">
+        <PropertyRef Name="LeagueId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeamMatches_Teams_AwayTeam">
+    <End Role="Teams" Type="FootballModel.Store.Teams" Multiplicity="1" />
+    <End Role="TeamMatches" Type="FootballModel.Store.TeamMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamMatches">
+        <PropertyRef Name="AwayTeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeamMatches_Teams_HomeTeam">
+    <End Role="Teams" Type="FootballModel.Store.Teams" Multiplicity="1" />
+    <End Role="TeamMatches" Type="FootballModel.Store.TeamMatches" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamMatches">
+        <PropertyRef Name="HomeTeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leagues_Teams_Leagues">
+    <End Role="Leagues" Type="FootballModel.Store.Leagues" Multiplicity="1" />
+    <End Role="Leagues_Teams" Type="FootballModel.Store.Leagues_Teams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Leagues">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Leagues_Teams">
+        <PropertyRef Name="Leagues_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Leagues_Teams_Teams">
+    <End Role="Leagues_Teams" Type="FootballModel.Store.Leagues_Teams" Multiplicity="*" />
+    <End Role="Teams" Type="FootballModel.Store.Teams" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Teams">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Leagues_Teams">
+        <PropertyRef Name="Teams_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,12 @@
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\obj\Debug\ForumSystem.Data.csprojResolveAssemblyReference.cache
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\ForumSystem.Data.dll.config
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\ForumSystem.Data.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\ForumSystem.Data.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\ForumSystem.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\ForumSystem.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\obj\Debug\ForumSystem.Data.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.Data\obj\Debug\ForumSystem.Data.pdb

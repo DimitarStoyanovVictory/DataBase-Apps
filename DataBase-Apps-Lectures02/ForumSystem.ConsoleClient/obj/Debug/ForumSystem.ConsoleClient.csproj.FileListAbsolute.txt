@@ -1,0 +1,14 @@
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\obj\Debug\ForumSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.ConsoleClient.exe.config
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.ConsoleClient.exe
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.ConsoleClient.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.Data.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.dll
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.Data.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\ForumSystem.pdb
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\obj\Debug\ForumSystem.ConsoleClient.exe
+D:\VSProjects\DataBase-Apps-Lectures02\ForumSystem.ConsoleClient\obj\Debug\ForumSystem.ConsoleClient.pdb

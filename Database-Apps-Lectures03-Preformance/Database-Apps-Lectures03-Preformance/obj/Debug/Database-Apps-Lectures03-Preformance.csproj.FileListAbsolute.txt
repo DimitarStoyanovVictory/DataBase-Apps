@@ -1,0 +1,12 @@
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\Database-Apps-Lectures03-Preformance.exe.config
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\obj\Debug\Database-Apps-Lectures03-Preformance.csprojResolveAssemblyReference.cache
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\Database-Apps-Lectures03-Preformance.exe
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\Database-Apps-Lectures03-Preformance.pdb
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.dll
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.xml
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\obj\Debug\Database-Apps-Lectures03-Preformance.exe
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\obj\Debug\Database-Apps-Lectures03-Preformance.pdb
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.Extended.dll
+D:\VSProjects\Database-Apps-Lectures03-Preformance\Database-Apps-Lectures03-Preformance\bin\Debug\EntityFramework.Extended.xml

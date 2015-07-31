@@ -1,0 +1,12 @@
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\2.DataBase-Apps-Lectures-FormSystem.Data.dll.config
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\2.DataBase-Apps-Lectures-FormSystem.Data.dll
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\2.DataBase-Apps-Lectures-FormSystem.Data.pdb
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\2.DataBase-Apps-Lectures.exe
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\EntityFramework.dll
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\2.DataBase-Apps-Lectures.pdb
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\EntityFramework.xml
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\obj\Debug\2.DataBase-Apps-Lectures-ForumSystem.Data.csprojResolveAssemblyReference.cache
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\obj\Debug\2.DataBase-Apps-Lectures-FormSystem.Data.dll
+D:\VSProjects\DataBase-Apps-Lectures\2.DataBase-Apps-Lectures-FormSystem.Data\obj\Debug\2.DataBase-Apps-Lectures-FormSystem.Data.pdb
